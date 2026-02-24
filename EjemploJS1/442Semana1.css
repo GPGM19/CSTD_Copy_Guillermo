@@ -1,0 +1,25 @@
+body {
+    color: beige;
+    background-color: darkgrey;
+}
+
+#encabezado {
+    color: blanchedalmond;
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    margin-bottom: 50;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-style: dashed;
+    border-width: 5;
+}
+
+#cuerpo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), url("https://upload.wikimedia.org/wikipedia/commons/f/f0/Station-Master_Tama.JPG");
+}
+
+div {
+    background-color: darkred;
+}
