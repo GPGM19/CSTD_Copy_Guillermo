@@ -1,7 +1,28 @@
 $(document).ready(function () {
+    $(".row").hide();
+    $(".row").slideDown();
     let control = 0;
-    $("#tamaid").click(function () {
-        $("#tamaid").hide();
+    $("#opcion1").click(function () {
+        if (control == 0) {
+            $("#tamaid").fadeOut();
+            control++;
+        }
+
+        else if (control == 1) {
+            $("#tamaid").fadeIn();
+            control++;
+        }
+
+        else if (control == 2) {
+            $("#tamaid").hide();
+            control++;
+        }
+        else {
+            $("#tamaid").show();
+            control = 0;
+
+        }
+
     });
 
 });
