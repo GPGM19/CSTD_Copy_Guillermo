@@ -1,6 +1,7 @@
 $(document).ready(function () {
+    let control = 0;
     $("#tamaid").click(function () {
-        $("#tamaid").animate({ right: '250px' });
-    })
+        $("#tamaid").hide();
+    });
 
 });
